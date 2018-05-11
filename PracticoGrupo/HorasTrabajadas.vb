@@ -6,7 +6,7 @@
         If cant_horas < 161 Then
             Return (cant_horas * 6.5).ToString()
         Else
-            Return ((160 * 6.5) + ((cant_horas - 160) * 7.5)).ToString()
+            Return "$ " & ((160 * 6.5) + ((cant_horas - 160) * 7.5)).ToString()
         End If
     End Function
 

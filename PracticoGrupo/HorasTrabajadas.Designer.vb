@@ -42,7 +42,7 @@ Partial Class HorasTrabajadas
         'txtHorasTrabajadas
         '
         Me.txtHorasTrabajadas.Location = New System.Drawing.Point(102, 178)
-        Me.txtHorasTrabajadas.MaxLength = 5
+        Me.txtHorasTrabajadas.MaxLength = 4
         Me.txtHorasTrabajadas.Name = "txtHorasTrabajadas"
         Me.txtHorasTrabajadas.Size = New System.Drawing.Size(100, 20)
         Me.txtHorasTrabajadas.TabIndex = 2
@@ -51,9 +51,9 @@ Partial Class HorasTrabajadas
         '
         Me.Label2.Font = New System.Drawing.Font("Cambria", 15.75!, CType((System.Drawing.FontStyle.Bold Or System.Drawing.FontStyle.Italic), System.Drawing.FontStyle), System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.Label2.ForeColor = System.Drawing.Color.DarkRed
-        Me.Label2.Location = New System.Drawing.Point(24, 210)
+        Me.Label2.Location = New System.Drawing.Point(1, 210)
         Me.Label2.Name = "Label2"
-        Me.Label2.Size = New System.Drawing.Size(165, 116)
+        Me.Label2.Size = New System.Drawing.Size(188, 116)
         Me.Label2.TabIndex = 3
         Me.Label2.Text = "Su sueldo es de : "
         Me.Label2.TextAlign = System.Drawing.ContentAlignment.MiddleCenter
@@ -62,9 +62,9 @@ Partial Class HorasTrabajadas
         '
         Me.lblSueldoResultado.Font = New System.Drawing.Font("Cambria", 15.75!, CType((System.Drawing.FontStyle.Bold Or System.Drawing.FontStyle.Italic), System.Drawing.FontStyle), System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.lblSueldoResultado.ForeColor = System.Drawing.Color.DarkRed
-        Me.lblSueldoResultado.Location = New System.Drawing.Point(195, 210)
+        Me.lblSueldoResultado.Location = New System.Drawing.Point(167, 210)
         Me.lblSueldoResultado.Name = "lblSueldoResultado"
-        Me.lblSueldoResultado.Size = New System.Drawing.Size(94, 116)
+        Me.lblSueldoResultado.Size = New System.Drawing.Size(145, 116)
         Me.lblSueldoResultado.TabIndex = 4
         Me.lblSueldoResultado.Text = "0"
         Me.lblSueldoResultado.TextAlign = System.Drawing.ContentAlignment.MiddleCenter
