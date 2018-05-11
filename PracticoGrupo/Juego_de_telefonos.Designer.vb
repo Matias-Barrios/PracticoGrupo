@@ -1,9 +1,9 @@
-﻿<Global.Microsoft.VisualBasic.CompilerServices.DesignerGenerated()> _
+﻿<Global.Microsoft.VisualBasic.CompilerServices.DesignerGenerated()>
 Partial Class Juego_de_telefonos
     Inherits System.Windows.Forms.Form
 
     'Form reemplaza a Dispose para limpiar la lista de componentes.
-    <System.Diagnostics.DebuggerNonUserCode()> _
+    <System.Diagnostics.DebuggerNonUserCode()>
     Protected Overrides Sub Dispose(ByVal disposing As Boolean)
         Try
             If disposing AndAlso components IsNot Nothing Then
@@ -20,8 +20,9 @@ Partial Class Juego_de_telefonos
     'NOTA: el Diseñador de Windows Forms necesita el siguiente procedimiento
     'Se puede modificar usando el Diseñador de Windows Forms.  
     'No lo modifique con el editor de código.
-    <System.Diagnostics.DebuggerStepThrough()> _
+    <System.Diagnostics.DebuggerStepThrough()>
     Private Sub InitializeComponent()
+        Me.components = New System.ComponentModel.Container()
         Me.Label1 = New System.Windows.Forms.Label()
         Me.txtTel1 = New System.Windows.Forms.TextBox()
         Me.txtTel2 = New System.Windows.Forms.TextBox()
@@ -29,6 +30,7 @@ Partial Class Juego_de_telefonos
         Me.txtTel4 = New System.Windows.Forms.TextBox()
         Me.txtTel5 = New System.Windows.Forms.TextBox()
         Me.btnSeleccionarGanador = New System.Windows.Forms.Button()
+        Me.Timer1 = New System.Windows.Forms.Timer(Me.components)
         Me.SuspendLayout()
         '
         'Label1
@@ -83,20 +85,26 @@ Partial Class Juego_de_telefonos
         '
         'btnSeleccionarGanador
         '
+        Me.btnSeleccionarGanador.BackColor = System.Drawing.Color.FromArgb(CType(CType(250, Byte), Integer), CType(CType(215, Byte), Integer), CType(CType(74, Byte), Integer))
         Me.btnSeleccionarGanador.Font = New System.Drawing.Font("Segoe Script", 14.25!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.btnSeleccionarGanador.Location = New System.Drawing.Point(21, 453)
         Me.btnSeleccionarGanador.Name = "btnSeleccionarGanador"
         Me.btnSeleccionarGanador.Size = New System.Drawing.Size(332, 54)
         Me.btnSeleccionarGanador.TabIndex = 6
         Me.btnSeleccionarGanador.Text = "Selecionar Ganador!!"
-        Me.btnSeleccionarGanador.UseVisualStyleBackColor = True
+        Me.btnSeleccionarGanador.UseVisualStyleBackColor = False
+        '
+        'Timer1
+        '
+        Me.Timer1.Enabled = True
+        Me.Timer1.Interval = 10
         '
         'Juego_de_telefonos
         '
         Me.AutoScaleDimensions = New System.Drawing.SizeF(6.0!, 13.0!)
         Me.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font
-        Me.BackColor = System.Drawing.Color.AliceBlue
-        Me.ClientSize = New System.Drawing.Size(380, 550)
+        Me.BackColor = System.Drawing.Color.FromArgb(CType(CType(229, Byte), Integer), CType(CType(100, Byte), Integer), CType(CType(100, Byte), Integer))
+        Me.ClientSize = New System.Drawing.Size(380, 549)
         Me.Controls.Add(Me.btnSeleccionarGanador)
         Me.Controls.Add(Me.txtTel5)
         Me.Controls.Add(Me.txtTel4)
@@ -120,4 +128,5 @@ Partial Class Juego_de_telefonos
     Friend WithEvents txtTel4 As TextBox
     Friend WithEvents txtTel5 As TextBox
     Friend WithEvents btnSeleccionarGanador As Button
+    Friend WithEvents Timer1 As Timer
 End Class

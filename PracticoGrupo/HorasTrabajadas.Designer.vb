@@ -73,7 +73,8 @@ Partial Class HorasTrabajadas
         '
         Me.AutoScaleDimensions = New System.Drawing.SizeF(6.0!, 13.0!)
         Me.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font
-        Me.ClientSize = New System.Drawing.Size(319, 335)
+        Me.BackColor = System.Drawing.Color.DeepSkyBlue
+        Me.ClientSize = New System.Drawing.Size(319, 334)
         Me.Controls.Add(Me.lblSueldoResultado)
         Me.Controls.Add(Me.Label2)
         Me.Controls.Add(Me.txtHorasTrabajadas)
